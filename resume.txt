@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+<meta charset="UTF-8">
+<title>Professional Resume</title>
+
+<style>
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    background:#f4f7fb;
+    margin:0;
+}
+
+.resume-container{
+    width:900px;
+    margin:40px auto;
+    background:white;
+    border-radius:8px;
+    box-shadow:0 8px 20px rgba(0,0,0,0.2);
+}
+
+/* Header */
+.header{
+    background:#1f3c88;
+    color:white;
+    display:flex;
+    align-items:center;
+    padding:25px;
+}
+
+.profile-img{
+    margin-right:25px;
+}
+
+/* IMAGE TAG (creates holding space for referenced image) */
+.profile-img img{
+    width:120px;
+    height:120px;
+    border-radius:50%;
+    border:4px solid white;
+}
+
+.name{
+    font-size:30px;
+    font-weight:bold;
+}
+
+.role{
+    font-size:18px;
+}
+
+/* Layout */
+.main{
+    display:flex;
+}
+
+.sidebar{
+    width:35%;
+    background:#ecf0f1;
+    padding:20px;
+}
+
+.content{
+    width:65%;
+    padding:20px;
+}
+
+h2{
+    border-bottom:2px solid #1f3c88;
+    padding-bottom:5px;
+}
+
+ul{
+    padding-left:18px;
+}
+
+.footer{
+    text-align:center;
+    padding:12px;
+    background:#f1f1f1;
+}
+
+</style>
+
+</head>
+
+<body>
+
+<div class="resume-container">
+
+<!-- HEADER -->
+<div class="header">
+
+<div class="profile-img">
+
+<!-- IMG TAG -->
+<!-- src = path of image -->
+<!-- alt = alternate text if image cannot load -->
+<img src="profile.jpg" alt="Profile Photo">
+
+</div>
+
+<div>
+<div class="name">Kanak Jayprakash Patni</div>
+<div class="role">Web Developer</div>
+</div>
+
+</div>
+
+<div class="main">
+
+<!-- SIDEBAR -->
+<div class="sidebar">
+
+<h2>Contact</h2>
+<p>Email: kanakpatni@email.com</p>
+<p>Phone: +91 9876543210</p>
+
+<h2>Skills</h2>
+<ul>
+<li>HTML</li>
+<li>CSS</li>
+<li>JavaScript</li>
+<li>UI/UX Design</li>
+</ul>
+
+<h2>HTML Links (Target Attribute Examples)</h2>
+
+<!-- HTML LINK SYNTAX -->
+<!-- <a href="url">link text</a> -->
+
+<p>
+<a href="https://www.wikipedia.org" target="_self">
+Wikipedia (_self - opens in same tab)
+</a>
+</p>
+
+<p>
+<a href="https://www.github.com" target="_blank">
+GitHub (_blank - opens in new tab)
+</a>
+</p>
+
+<p>
+<a href="https://www.linkedin.com" target="_parent">
+LinkedIn (_parent - opens in parent frame)
+</a>
+</p>
+
+<p>
+<a href="https://www.google.com" target="_top">
+Google (_top - opens in full body window)
+</a>
+</p>
+
+</div>
+
+<!-- MAIN CONTENT -->
+<div class="content">
+
+<h2>Profile</h2>
+<p>
+Kanak Jayprakash Patni 
+age-18 
+</p>
+
+<h2>Education</h2>
+<p>
+<b>Bachelor of Artificial Inteligence </b><br>
+S.B Jain nagpur<br>
+2025 - 2029
+</p>
+
+<h2>Projects</h2>
+
+<p>
+<b>Portfolio Website</b><br>
+
+<a href="https://example.com" target="_blank">
+View Project
+</a>
+
+</p>
+
+<p>
+<b>Task Management App</b><br>
+
+<a href="https://github.com" target="_blank">
+View Source Code
+</a>
+
+</p>
+
+<h2>Experience</h2>
+<p>
+Frontend Intern – ABC Tech<br>
+Worked on improving UI design and responsive layouts.
+</p>
+
+</div>
+
+</div>
+
+<div class="footer">
+© 2026 kanak patni | Professional Resume
+</div>
+
+</div>
+
+</body>
+</html>

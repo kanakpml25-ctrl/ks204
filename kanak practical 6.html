@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<title>Scholarship / Seminar Registration</title>
+
+<style>
+    body {
+        font-family: Arial, sans-serif;
+        background: linear-gradient(to right, #4facfe, #00f2fe);
+        margin: 0;
+        padding: 0;
+    }
+
+    h2 {
+        text-align: center;
+        color: white;
+        padding: 15px;
+    }
+
+    form {
+        width: 60%;
+        margin: auto;
+        background: white;
+        padding: 20px;
+        border-radius: 10px;
+        box-shadow: 0 0 10px gray;
+    }
+
+    fieldset {
+        border: 2px solid #4facfe;
+        margin-bottom: 15px;
+        padding: 15px;
+        border-radius: 8px;
+    }
+
+    legend {
+        font-weight: bold;
+        color: #4facfe;
+        padding: 5px 10px;
+    }
+
+    input, select {
+        width: 95%;
+        padding: 8px;
+        margin: 5px 0 10px 0;
+        border-radius: 5px;
+        border: 1px solid #ccc;
+    }
+
+    input[type="radio"], input[type="checkbox"] {
+        width: auto;
+        margin-right: 5px;
+    }
+
+    .btn {
+        background: #4facfe;
+        color: black;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        cursor: pointer;
+    }
+
+    .btn:hover {
+        background: #0077cc;
+    }
+
+    .section-title {
+        background: #4facfe;
+        color: white;
+        padding: 5px;
+        border-radius: 5px;
+        margin-bottom: 10px;
+    }
+
+    .info-box {
+        background: #f0f8ff;
+        padding: 10px;
+        border-left: 5px solid #4facfe;
+        margin-bottom: 15px;
+    }
+</style>
+
+</head>
+<body>
+
+<h2>Scholarship / Seminar Registration Form</h2>
+
+<form>
+
+    
+    </div>
+
+    <!-- Personal Info -->
+    <fieldset>
+        <legend>Personal Information</legend>
+
+        Full Name:
+        <input type="text" name="name" required>
+
+        Email:
+        <input type="email" name="email" required>
+
+        Phone:
+        <input type="tel" name="phone">
+
+        Gender:<br>
+        <input type="radio" name="gender"> Male
+        <input type="radio" name="gender"> Female
+        <input type="radio" name="gender"> Trans
+    </fieldset>
+
+    <!-- Academic Info -->
+    <fieldset>
+        <legend>Academic Details</legend>
+
+        Qualification:
+        <select>
+            <option>Select</option>
+            <option>High School</option>
+            <option>Diploma</option>
+            <option>Undergraduate</option>
+            <option>Postgraduate</option>
+        </select>
+
+        Course:
+        <input type="text" name="course">
+
+        Percentage / CGPA:
+        <input type="text" name="marks">
+    </fieldset>
+
+    <!-- Application -->
+    <fieldset>
+        <legend>Application Details</legend>
+
+        Applying For:<br>
+        <input type="radio" name="apply"> Scholarship
+        <input type="radio" name="apply"> Seminar
+        <br><br>
+
+        Preferred Topics:<br>
+        <input type="checkbox"> Technology
+        <input type="checkbox"> Science
+        <input type="checkbox"> Management
+        <input type="checkbox"> Arts
+        <br><br>
+
+        Select State:
+        <select>
+            <option>Select</option>
+            <option>Maharashtra</option>
+            <option>Delhi</option>
+            <option>Karnataka</option>
+            <option>Tamil Nadu</option>
+            <option>Rajasthan</option>
+            <option>Madhya Pradesh</option>
+            <option>Uttar Pradesh</option>
+            <option>West Bangal</option>
+        </select>
+    </fieldset>
+
+    <!-- Submit -->
+    <center>
+        <input type="submit" value="Register" class="btn">
+        <input type="reset" value="Clear" class="btn">
+    </center>
+
+</form>
+
+</body>
+</html>
